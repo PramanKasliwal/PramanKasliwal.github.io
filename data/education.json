@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Poornima University, Jaipur",
+        "year": "2016 - 2020",
+        "course": "B.Tech in Computer Engineering (With Specialization in Cloud Technology and Information Security)",
+        "notes": ["Honed information security skills along with cloud technology"]
+    },
+    {
+        "name": "Delhi Public School, Jaipur",
+        "year": "2015 - 2016",
+        "course": "12th (Science, Maths, and M&WT)",
+        "notes": ["Scored 98% in Multimedia and Web Technology in CBSE Boards","Scored 92% in English in CBSE Boards"]
+    }
+]

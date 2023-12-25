@@ -1,0 +1,40 @@
+[{
+    "name": "Python",
+    "description": "A popular high-level programming language for general use.",
+    "ability": 80
+},
+{
+    "name": "C/C++",
+    "description": "An imperative, procedural and object-oriented programming language.",
+    "ability": 75
+},
+{
+    "name": "Bash/Batch Scripting",
+    "description": "Scripts to automate tasks on a command line interface.",
+    "ability": 70
+},
+{
+    "name": "Security Audits",
+    "description": "Analysis of software or systems security vulnerabilities.",
+    "ability": 75
+},
+{
+    "name": "Networking Protocols",
+    "description": "Understanding TCP/IP, HTTP(S), FTP, SMTP, etc. protocols.",
+    "ability": 70
+},
+{
+    "name": "Linux Operating System",
+    "description": "Experience with Linux distributions such as Ubuntu, Fedora, CentOS, RedHat.",
+    "ability": 85
+},
+{
+    "name": "Windows Operating System",
+    "description": "Familiarity with Windows Server and Desktop operating system.",
+    "ability": 85
+},
+{
+    "name": "Web Application Development",
+    "description": "Development of web applications using various technologies like PHP, Django, Flask, etc.",
+    "ability": 80
+}]

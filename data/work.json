@@ -1,0 +1,30 @@
+[
+    {
+        "company": "LTIMindtree, Ltd.",
+        "post": "Senior Consultant - Cyber Security",
+        "from": "Aug, 2022",
+        "to": "Present",
+        "notes": ["Working on Signature analysis and identification strategies of various IoT Devices over multiple network protocols"]
+    },
+    {
+        "company": "DRDO (Contracted from 3rd Party Company)",
+        "post": "Security Software Developer",
+        "from": "Feb, 2021",
+        "to": "Aug, 2022",
+        "notes": ["Created multiple softwares related to Security of the organization.","Created softwares with AI integration."]
+    },
+    {
+        "company": "Defence Research & Development Organization (DRDO)",
+        "post": "Trainee",
+        "from": "Dec, 2019",
+        "to": "Mar, 2020",
+        "notes": ["Worked on an automation software to automate Internal Security Desktop Audit of an entire organization, along with analysis and results' visualization."]
+    },
+    {
+        "company": "Cybervault Securities Solutions Pvt. Ltd.",
+        "post": "Security Intern",
+        "from": "Nov, 2018",
+        "to": "Feb, 2019",
+        "notes": ["Completed CEH certification with an aggregate of 92%.","Successfully conducted Internal Security Desktop & Network Audit of MDCC Bank, Mumbai."]
+    }
+]

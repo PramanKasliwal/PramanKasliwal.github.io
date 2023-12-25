@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ASNA (Automated Systems and Network Auditor)",
+        "detail": "ASNA is an automation software to automate the tedious process of Internal Security Desktop & Network Audit that can be customized on the basis of organizational requirements regarding organizational policies and procedures of digital security.",
+        "skills": ["Python","Batch Scripting (Windows)","Bash Scripting (Linux)","Automation","Database Security","Reslt Visualization","Data Analysis"]
+    },
+    {
+        "name": "DonkeyScanner (DScan)",
+        "detail": "DonkeyScanner or DScan is a tool that can be used to lessen the burden of remembering the nmap attributes and their functionalities. You simply select the type of scan you want, and provide the required details. The script scans the system and provides the output.",
+        "skills": ["Python","Nmap","Networking","Scanning","Information Gathering","Reconnaissance"]
+    },
+    {
+        "name": "Securd3+",
+        "detail": "Hardware security implementation that incorporates 3 or more layers of security in a single layer so as to improve the security layout. The system works on the principle of proving that you are indeed the legitimate user, by providing the following information: Who you are? (Biometrics) , What you have? (OTP, Smart Cards, etc), and, What you know? (Passwords, Patterns, etc.)",
+        "skills": ["Python","Arduino Uno", "Raspberry Pi"]
+    }
+]

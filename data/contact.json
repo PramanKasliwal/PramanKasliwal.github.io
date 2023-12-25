@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Phone",
+        "detail": "<a href=\"tel://+918005955073/\">+91 80059 55073</a>",
+        "icon": "✆"
+    },
+    {
+        "name": "Email",
+        "detail": "<a href=\"mailto:kasliwal.praman008@gmail.com\">kasliwal.praman008@gmail.com</a>",
+        "icon": "✉"
+    },
+    {
+        "name": "LinkedIn",
+        "detail": "<a target='_blank' href=\"https://www.linkedin.com/in/pramankasliwal\">LinkedIn</a>",
+        "icon": "linkedin"
+    },
+    {
+        "name": "Github",
+        "detail": "<a target='_blank' href='http://github.com/PramanKasliwal'>Github</a>",
+        "icon": "github"
+    },
+    {
+        "name": "Twitter",
+        "detail": "<a class=\"twitter-follow-button\" data-show-count=\"false\" href=\"https://twitter.com/pramankasliwal/\">Twitter</a>",
+        "icon": "twitter"
+    }
+]
