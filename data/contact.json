@@ -5,6 +5,11 @@
         "icon": "✆"
     },
     {
+        "name": "WhatsApp",
+        "detail": "<a href=\"https://wa.me/918005955073\">Chat Now</a>",
+        "icon": ""
+    },
+    {
         "name": "Email",
         "detail": "<a href=\"mailto:kasliwal.praman008@gmail.com\">kasliwal.praman008@gmail.com</a>",
         "icon": "✉"
