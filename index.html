@@ -158,7 +158,7 @@
                             .then(dataArray => {
                                 // Use the existing outputElement variable here
                                 dataArray.forEach(data => {
-                                    outputElement.innerHTML += `Course: ${data.course}<br>Place: <u>${data.name}</u><br>Year: ${data.year}<ul>${data.notes.map(note => `<li>${note}</li>`).join('')}</ul></li><hr>`;
+                                    outputElement.innerHTML += `🎓 Course: ${data.course}<br>📌 Place: <u>${data.name}</u><br>Year: ${data.year}<ul>${data.notes.map(note => `<li>${note}</li>`).join('')}</ul></li><hr>`;
                                 });
                             })
                             .catch(error => {
@@ -179,7 +179,7 @@
                             .then(dataArray => {
                                 // Use the existing outputElement variable here
                                 dataArray.forEach(data => {
-                                    outputElement.innerHTML += `${data.post}<br>Company: <u>${data.company}</u><br>Time Frame: ${data.from} - ${data.to}<ul>${data.notes.map(note => `<li>${note}</li>`).join('')}</ul></li><hr>`;
+                                    outputElement.innerHTML += `${data.post}<br>🏢 Company: <u>${data.company}</u><br>🕒 Time Dedicated: ${data.from} - ${data.to}<ul>${data.notes.map(note => `<li>${note}</li>`).join('')}</ul></li><hr>`;
                                 });
                             })
                             .catch(error => {
