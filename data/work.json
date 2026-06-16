@@ -1,9 +1,16 @@
 [
     {
-        "company": "LTIMindtree, Ltd.",
+        "company": "Volkswagen Group Digital Solutions [India]",
+        "post": "Senior Security Consultant",
+        "from": "May, 2026",
+        "to": "Present",
+        "notes": ["Support enterprise vulnerability management by identifying, assessing, prioritizing, and tracking vulnerabilities across technology assets.","Coordinate with infrastructure and application teams to drive remediation and reduce cyber exposure.","Perform risk-based vulnerability analysis considering severity, exploitability, and business impact.","Support incident response, threat management, and ISO 27001 internal audit activities.","Develop security metrics, reports, and process improvements to enhance security posture."]
+    },
+    {
+        "company": "LTM (Previously LTIMindtree, Ltd.)",
         "post": "Senior Consultant - Cyber Security",
         "from": "Aug, 2022",
-        "to": "Present",
+        "to": "Apr, 2026",
         "notes": ["Conduct in-depth analysis of IoT devices, focusing on various protocols to identify and assess known vulnerabilities.","Develop and implement cybersecurity measures to safeguard systems and devices.","Collaborate with cross-functional teams to improve device security and ensure compliance with industry standards.","Streamlined and mechanized critical tasks to enhance operational efficiency and significantly reduce turnaround time."]
     },
     {
