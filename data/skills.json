@@ -1,40 +1,47 @@
-[{
-    "name": "🐍 Python",
-    "description": "A popular high-level programming language for general use.",
-    "ability": 80
-},
-{
-    "name": "©️ C/C++",
-    "description": "An imperative, procedural and object-oriented programming language.",
-    "ability": 60
-},
-{
-    "name": "🅱️ Bash/Batch Scripting",
-    "description": "Scripts to automate tasks on a command line interface.",
-    "ability": 70
-},
-{
-    "name": "🤓 Security Audits",
-    "description": "Analysis of software or systems security vulnerabilities.",
-    "ability": 75
-},
-{
-    "name": "🛜 Networking Protocols",
-    "description": "Understanding TCP/IP, HTTP(S), FTP, SMTP, etc. protocols.",
-    "ability": 70
-},
-{
-    "name": "🖥️ Linux Operating System",
-    "description": "Experience with Linux distributions such as Ubuntu, Fedora, CentOS, RedHat.",
+[
+  {
+    "name": "🛡️ Vulnerability Management",
+    "description": "Enterprise vulnerability identification, risk prioritization, remediation tracking, and security posture improvement across infrastructure, applications, and connected assets.",
+    "ability": 95
+  },
+  {
+    "name": "🔎 Security Assessment & Penetration Testing",
+    "description": "Performing infrastructure, network, application, and IoT security assessments using industry-standard methodologies and tools.",
+    "ability": 90
+  },
+  {
+    "name": "🐍 Python Security Automation",
+    "description": "Developing automation scripts and security tooling for vulnerability analysis, reporting, data processing, and operational efficiency.",
+    "ability": 90
+  },
+  {
+    "name": "🧰 Security Tools",
+    "description": "Hands-on experience with Nessus, Burp Suite, Nmap, Rapid7, ELK Stack, Wireshark, and security analysis utilities.",
+    "ability": 90
+  },
+  {
+    "name": "🌐 Network & Protocol Security",
+    "description": "Strong understanding of TCP/IP, HTTP/HTTPS, SSH, DNS, SNMP, and network communication security principles.",
     "ability": 85
-},
-{
-    "name": "🖥️ Windows Operating System",
-    "description": "Familiarity with Windows Server and Desktop operating system.",
+  },
+  {
+    "name": "💻 Linux & Windows Security",
+    "description": "Security assessment, system analysis, configuration validation, and administration across Linux and Windows environments.",
     "ability": 85
-},
-{
-    "name": "🖼️ Web Application Development",
-    "description": "Development of web applications using various technologies like PHP, Django, Flask, etc.",
+  },
+  {
+    "name": "☁️ Security Compliance & Governance",
+    "description": "Experience with ISO 27001 internal audits, security controls validation, risk assessments, and compliance activities.",
+    "ability": 85
+  },
+  {
+    "name": "🚨 Incident Response & Threat Management",
+    "description": "Supporting security investigations, threat analysis, incident handling, and improving organizational cyber resilience.",
     "ability": 80
-}]
+  },
+  {
+    "name": "⚙️ Scripting & Automation",
+    "description": "Automation using Python, Bash, and PowerShell to reduce manual effort and improve cybersecurity operations.",
+    "ability": 90
+  }
+]

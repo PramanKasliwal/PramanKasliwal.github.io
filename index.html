@@ -1,258 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praman's Portfolio</title>
-    <script>
-        // Disable right-click
-        document.addEventListener('contextmenu', function (e) {
-            e.preventDefault();
-        });
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praman Kasliwal | Senior Security Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-        // Disable control characters
-        document.addEventListener('keydown', function (e) {
-            if (e.ctrlKey && e.key === 'u') {
-                e.preventDefault();
-            }
-        });
-        document.addEventListener('keydown', function (e) {
-            // Disable all function keys (F1 to F12)
-            if (e.key.startsWith('F')) {
-                e.preventDefault();
-            }
-        });
-    </script>
-    <style>
-        body {
-            font-family: 'Inconsolata', monospace;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #000;
-            color: #0f0;
-        }
+    html, body {
+      height: 100%;          /* FIX: was min-height, calc() children need explicit height */
+      background: #0f172a;
+      color: #e2e8f0;
+      font-family: 'JetBrains Mono', monospace;
+    }
 
-        a:link {
-            color: #0f0;
-        }
+    a { color: #0f0; }
+    a:visited { color: #0f0; }
+    a:hover { color: rgb(255, 94, 0); }
 
-        a:visited {
-            color: #0f0;
-        }
+    .terminal {
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 20px);
+      height: calc(100vh - 20px);   /* FIX: explicit viewport height */
+      margin: 10px auto;
+      background: #111827;
+      border: 1px solid #334155;
+      border-radius: 12px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.45);
+      overflow: hidden;
+    }
 
-        a:hover {
-            color: rgb(255, 94, 0);
-        }
+    .terminal-header {
+      background: #1e293b;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      padding: 0 15px;
+      border-bottom: 1px solid #334155;
+      flex-shrink: 0;
+    }
 
-        a:active {
-            color: #0f0;
-        }
+    .dot {
+      height: 12px; width: 12px;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 8px;
+    }
+    .red    { background: #ef4444; }
+    .yellow { background: #eab308; }
+    .green  { background: #22c55e; }
 
-        .terminal {
-            border: 2px solid #0f0;
-            padding: 10px;
-            width: 50%;
-            overflow: hidden;
-        }
+    .title { margin-left: 15px; color: #94a3b8; font-size: 14px; }
 
-        .output {
-            white-space: pre-wrap;
-        }
+    /* FIX: output fills remaining space and scrolls */
+    #output {
+      flex: 1;
+      padding: 20px;
+      line-height: 1.7;
+      overflow-y: auto;
+      color: #cbd5e1;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
 
-        input {
-            width: calc(100% - 20px);
-            padding: 5px;
-            background-color: #000;
-            color: #0f0;
-            border: none;
-            outline: none;
-        }
-    </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            // Set focus to the input field with id "input"
-            const inputElement = document.getElementById('input');
+    /* FIX: input row is a proper flex container */
+    .input-row {
+      display: flex;
+      align-items: center;
+      padding: 8px 12px;
+      border-top: 1px solid #334155;
+      flex-shrink: 0;
+      background: #111827;
+    }
 
-            if (inputElement) {
-                inputElement.focus();
-            }
-        });
-    </script>
+    .prompt { color: #38bdf8; font-weight: 600; white-space: nowrap; margin-right: 6px; }
+
+    #input {
+      flex: 1;
+      background: transparent;
+      color: #fff;
+      border: none;
+      outline: none;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 14px;
+      caret-color: #0f0;
+    }
+  </style>
 </head>
-
 <body>
-    <div class="terminal">
-        <div class="output" id="output">Praman's Portfolio Terminal</div>
-        $<input type="text" id="input" placeholder="Type your command" autofocus>
-    </div>
 
-    <script>
-        function autoDownload() {
-            const link = document.createElement('a');
-            link.href = 'https://github.com/PramanKasliwal/PramanKasliwal.github.io/raw/master/data/Praman_Kasliwal.pdf'; // Replace with the actual path to your PDF file
-            link.download = 'Praman_Resume.pdf'; // Specify the desired file name
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-        }
-        document.addEventListener("DOMContentLoaded", function () {
-            const outputElement = document.getElementById("output");
-            const inputElement = document.getElementById("input");
+<div class="terminal">
+  <div class="terminal-header">
+    <span class="dot red"></span>
+    <span class="dot yellow"></span>
+    <span class="dot green"></span>
+    <span class="title">praman@security-console</span>
+  </div>
 
-            // Initial text
-            outputElement.textContent += "\n$ Type 'help' to see available commands.";
+  <div id="output"></div>
 
-            // Sample command handler
-            function handleCommand(command) {
-                const args = command.split(" ");
-                const action = args[0].toLowerCase();
+  <div class="input-row">
+    <span class="prompt">praman@security:~$</span>
+    <input type="text" id="input" autocomplete="off" spellcheck="false" autofocus>
+  </div>
+</div>
 
-                switch (action) {
-                    case "help":
-                        outputElement.textContent += "\n\nAvailable commands:\n$ - help: Display available commands.\n$ - clear, or cls: Clear the terminal.\n$ - about: Display basic information about me.\n$ - edu: Educational background.\n$ - skills: Some of my skll-sets.\n$ - work: My work history.\n$ - projects: Some projects I've worked on.\n$ - contact: Contact me over various channels.\n$ - download: Download my latest resume for your reference.";
-                        break;
-                    case "clear":
-                        outputElement.textContent = "Praman's Protfolio Terminal\n Type 'help' to see available commands.";
-                        break;
-                    case "cls":
-                        outputElement.textContent = "Praman's Protfolio Terminal\n Type 'help' to see available commands.";
-                        break;
-                    case "about":
-                        outputElement.textContent += "\n\nHi, I’m Praman Kasliwal — a cybersecurity engineer, automation enthusiast.\n\nWith over 4 years of experience in cybersecurity, I specialize in:\n🔐 Analyzing and securing IoT devices and their protocols\n⚙️ Automating complex tasks using Python, Bash, and PowerShell\n🧠 Designing intelligent monitoring systems to enforce compliance and reduce risk\n🌐 Building backend systems with Flask, integrated with logging and analysis tools\n\nCurrently working as a Senior Consultant – Cybersecurity, I focus on system-level behavior analysis, control validation, and risk alignment — crafting security solutions that are both silent and effective.\n\nI believe security should be proactive, not reactive — and the best tools are the ones that quietly do their job without disrupting the flow.\n\nWhen I’m not coding or analyzing logs, I’m exploring the future of AI-driven threat detection and learning how machine learning can reshape the way we defend our systems.";
-                        break;
-                    case "skills":
-                        outputElement.textContent += '\n\nMy Skills Include:';
-                        outputElement.innerHTML += '<hr type="=">';
-                        fetch('data/skills.json')
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error(`HTTP error! Status: ${response.status}`);
-                                }
-                                return response.json();
-                            })
-                            .then(dataArray => {
-                                // Use the existing outputElement variable here
-                                dataArray.forEach(data => {
-                                    outputElement.innerHTML += `${data.name}: ${data.description}<br>Confidence: ${data.ability}%<hr>`;
-                                });
-                            })
-                            .catch(error => {
-                                console.error('Error loading JSON:', error);
-                                // Display the error within the terminal
-                                outputElement.textContent += `\n${error.message}`;
-                            });
-                        break;
-                    case "edu":
-                        outputElement.textContent += '\n\nMy Education:\n';
-                        fetch('data/education.json')
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error(`HTTP error! Status: ${response.status}`);
-                                }
-                                return response.json();
-                            })
-                            .then(dataArray => {
-                                // Use the existing outputElement variable here
-                                dataArray.forEach(data => {
-                                    outputElement.innerHTML += `🎓 Course: ${data.course}<br>📌 Place: <u>${data.name}</u><br>Year: ${data.year}<ul>${data.notes.map(note => `<li>${note}</li>`).join('')}</ul></li><hr>`;
-                                });
-                            })
-                            .catch(error => {
-                                console.error('Error loading JSON:', error);
-                                // Display the error within the terminal
-                                outputElement.textContent += `\n${error.message}`;
-                            });
-                        break;
-                    case "work":
-                        outputElement.textContent += '\n\nWork History:\n';
-                        fetch('data/work.json')
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error(`HTTP error! Status: ${response.status}`);
-                                }
-                                return response.json();
-                            })
-                            .then(dataArray => {
-                                // Use the existing outputElement variable here
-                                dataArray.forEach(data => {
-                                    outputElement.innerHTML += `${data.post}<br>🏢 Company: <u>${data.company}</u><br>🕒 Time Dedicated: ${data.from} - ${data.to}<ul>${data.notes.map(note => `<li>${note}</li>`).join('')}</ul></li><hr>`;
-                                });
-                            })
-                            .catch(error => {
-                                console.error('Error loading JSON:', error);
-                                // Display the error within the terminal
-                                outputElement.textContent += `\n${error.message}`;
-                            });
-                        break;
-                    case "contact":
-                        outputElement.textContent += '\n\Contact me via:\n';
-                        fetch('data/contact.json')
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error(`HTTP error! Status: ${response.status}`);
-                                }
-                                return response.json();
-                            })
-                            .then(dataArray => {
-                                // Use the existing outputElement variable here
-                                dataArray.forEach(data => {
-                                    outputElement.innerHTML += `<li>${data.detail}</li>`;
-                                });
-                            })
-                            .catch(error => {
-                                console.error('Error loading JSON:', error);
-                                // Display the error within the terminal
-                                outputElement.textContent += `\n${error.message}`;
-                            });
-                        break;
-                    case "projects":
-                        outputElement.textContent += '\n\Contact me via:\n';
-                        fetch('data/projects.json')
-                            .then(response => {
-                                if (!response.ok) {
-                                    throw new Error(`HTTP error! Status: ${response.status}`);
-                                }
-                                return response.json();
-                            })
-                            .then(dataArray => {
-                                // Use the existing outputElement variable here
-                                dataArray.forEach(data => {
-                                    outputElement.innerHTML += `Name: <u>${data.name}</u><br>${data.detail}<br>Skills Included:${data.skills.map(note => `<li>${note}</li>`).join('')}<hr>`;
-                                });
-                            })
-                            .catch(error => {
-                                console.error('Error loading JSON:', error);
-                                // Display the error within the terminal
-                                outputElement.textContent += `\n${error.message}`;
-                            });
-                        break;
-                    case "download":
-                        autoDownload();
-                        outputElement.textContent += '\n$ Download started!'
-                        break;
-                    default:
-                        outputElement.textContent += `\n$ Command not recognized: ${command}`;
-                }
-            }
+<script>
+  const output = document.getElementById('output');
+  const input  = document.getElementById('input');
 
-            // Handle input
-            inputElement.addEventListener("keyup", function (event) {
-                if (event.key === "Enter") {
-                    const command = inputElement.value.trim();
-                    if (command !== "") {
-                        outputElement.textContent += `\n$ ${command}`;
-                        handleCommand(command);
-                        inputElement.value = "";
-                    }
-                }
-            });
+  const WELCOME = `PRAMAN KASLIWAL
+
+Senior Security Engineer | Vulnerability Management | Risk Management
+
+5+ years securing enterprise environments.
+
+Type 'help' to explore my experience.`;
+
+  // FIX: single append function that always uses innerHTML and auto-scrolls
+  function print(html) {
+    output.innerHTML += html;
+    output.scrollTop = output.scrollHeight;  // FIX: auto-scroll to bottom
+  }
+
+  function printLine(html) {
+    print('\n' + html);
+  }
+
+  function autoDownload() {
+    const link = document.createElement('a');
+    link.href = 'https://github.com/PramanKasliwal/PramanKasliwal.github.io/raw/master/data/Praman_Kasliwal.pdf';
+    link.download = 'Praman_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+
+  function fetchData(path, onData) {
+    fetch(path)
+      .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+      .then(onData)
+      .catch(err => printLine(`<span style="color:#ef4444">Error: ${err.message}</span><span style="color:#ef4444">Error: ${err.name}</span>`));
+  }
+
+  function handleCommand(cmd) {
+    const action = cmd.trim().toLowerCase().split(' ')[0];
+
+    switch (action) {
+      case 'help':
+        printLine(`Available commands:
+  about    — Who I am
+  skill   — Technical skill-sets
+  edu      — Educational background
+  work     — Work history
+  projects — Projects I've built
+  contact  — How to reach me
+  download — Download my latest resume
+  clear    — Clear the terminal`);
+        break;
+
+      case 'clear':
+      case 'cls':
+        output.innerHTML = '';
+        print(WELCOME);
+        break;
+
+      case 'about':
+        printLine(`Hi, I'm Praman Kasliwal — a cybersecurity engineer and automation enthusiast.
+
+With over 5 years of experience in cybersecurity, I specialise in:
+  🔐 Analyzing and securing IoT devices and their protocols
+  ⚙️  Automating complex tasks using Python, Bash, and PowerShell
+  🧠 Designing intelligent monitoring systems to enforce compliance
+  🌐 Building backend systems with Flask, integrated with logging tools
+
+Currently working as a Senior Security Engineer, I focus on
+vulnerability management, control validation, and risk alignment.`);
+        break;
+
+      case 'skill':
+        printLine('My Skills:\n');
+        fetchData('data/skills.json', data => {
+          data.forEach(s => {
+            printLine(`<b>${s.name}</b>: ${s.description}\nConfidence: ${s.ability}%\n`);
+          });
         });
-    </script>
+        break;
+
+      case 'edu':
+        printLine('My Education:\n');
+        fetchData('data/education.json', data => {
+          data.forEach(e => {
+            printLine(`🎓 ${e.course}\n📌 ${e.name} — ${e.year}\n${e.notes.map(n => `  • ${n}`).join('\n')}\n`);
+          });
+        });
+        break;
+
+      case 'work':
+        printLine('Work History:\n');
+        fetchData('data/work.json', data => {
+          data.forEach(w => {
+            printLine(`<b>${w.post}</b>\n🏢 ${w.company} | ${w.from} – ${w.to}\n${w.notes.map(n => `  • ${n}`).join('\n')}\n`);
+          });
+        });
+        break;
+
+      case 'contact':
+        printLine('Contact me via:\n');
+        fetchData('data/contact.json', data => {
+          data.forEach(c => printLine(`  • ${c.detail}`));
+        });
+        break;
+
+      case 'projects':
+        printLine('Projects:\n');
+        fetchData('data/projects.json', data => {
+          data.forEach(p => {
+            printLine(`<b>${p.name}</b>\n${p.detail}\nSkills: ${p.skills.join(', ')}\n`);
+          });
+        });
+        break;
+
+      case 'download':
+        autoDownload();
+        printLine('Download started!');
+        break;
+
+      default:
+        printLine(`Command not recognised: <span style="color:#ef4444">${cmd}</span>  (type 'help' for options)`);
+    }
+  }
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const cmd = input.value.trim();
+      input.value = '';
+      if (!cmd) return;
+      printLine(`<span style="color:#38bdf8">praman@security:~$</span> ${cmd}`);
+      handleCommand(cmd);
+    }
+  });
+
+  // Initial render
+  print(WELCOME);
+  input.focus();
+</script>
 
 </body>
-
 </html>
