@@ -2,123 +2,150 @@
 
 <div align="center">
 
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Expert-blue?style=for-the-badge&logo=security&logoColor=white)
-![Python](https://img.shields.io/badge/Python-Automation-yellow?style=for-the-badge&logo=python&logoColor=white)
-![Experience](https://img.shields.io/badge/Experience-5%2B%20Years-green?style=for-the-badge)
-![Location](https://img.shields.io/badge/Location-Pune%2C%20India-red?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Senior Security Engineer](https://img.shields.io/badge/Senior%20Security%20Engineer-Enterprise%20Cybersecurity-blue?style=for-the-badge)
+![Vulnerability Management](https://img.shields.io/badge/Vulnerability-Management-red?style=for-the-badge)
+![Security Automation](https://img.shields.io/badge/Python-Security%20Automation-yellow?style=for-the-badge&logo=python&logoColor=white)
+![Experience](https://img.shields.io/badge/Experience-5%2B%20Years-success?style=for-the-badge)
+![Location](https://img.shields.io/badge/Location-Pune%2C%20India-orange?style=for-the-badge)
 
 </div>
+
+---
 
 ## 🛡️ About Me
 
-**Senior Cybersecurity Professional** with 5+ years of experience securing enterprise infrastructure and developing innovative security solutions. Currently working as a **Senior Security Engineer** with Volkswage Group, where I specialize in vulnerability and risk management, along with threat management and incident response.
+Senior Security Engineer with 5+ years of experience specializing in enterprise cybersecurity, vulnerability management, security assessments, cyber risk reduction, and security automation.
 
-- 🔐 Secured **1000+ systems nationwide** during my tenure at DRDO
-- 🚀 Automated security processes achieving **40% efficiency improvements**
-- 🎯 Conducted security assessments for **500+ IoT devices**
-- 🏆 **DRDO Recognition Certificate** recipient for outstanding contribution
-- 📚 **MITRE ATT&CK Certified** | **ISO 27001** expertise
+Currently working with **Volkswagen Group Digital Solutions [India]**, where I focus on vulnerability management, threat management, incident response support, and ISO 27001 internal audit activities.
 
-## 💻 Tech Stack
+I have experience across enterprise environments, IoT security assessments, secure automation development, and cybersecurity operations.
 
-### 🔒 Security & Compliance
-![Vulnerability Management](https://img.shields.io/badge/-Vulnerability%20Management-4CAF50?style=flat-square)
-![Threat Assessment](https://img.shields.io/badge/-Threat%20Assessment-FF5722?style=flat-square)
-![Incident Management](https://img.shields.io/badge/-Incident%20Management-FF5722?style=flat-square)
-![MITRE ATT&CK Framework](https://img.shields.io/badge/-MITRE%20ATT%26CK%20Framework-2196F3?style=flat-square)
-![ISO 27001 Framework](https://img.shields.io/badge/-ISO%2027001%20Framework-9C27B0?style=flat-square)
+---
 
-### 🛠️ Tools & Technologies
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+## 🎯 Professional Highlights
+
+- 🔐 5+ years of experience in Enterprise Cybersecurity
+- 🛡️ Experienced in Vulnerability Management, Risk Prioritization, and Remediation Coordination
+- 🌐 Performed security assessments for 500+ IoT devices and enterprise environments
+- ⚙️ Developed security automation solutions improving operational efficiency by 40%
+- 🏢 Developed automated audit solutions supporting 1000+ enterprise systems
+- 📊 Experience in security reporting, compliance validation, and stakeholder collaboration
+- 📋 Strong understanding of ISO 27001, NIST Cybersecurity Framework, and MITRE ATT&CK
+
+---
+
+## 🔐 Core Security Competencies
+
+### Enterprise Security & Risk
+
+![Vulnerability Management](https://img.shields.io/badge/-Vulnerability%20Management-2E8B57?style=flat-square)
+![Risk Assessment](https://img.shields.io/badge/-Cyber%20Risk%20Assessment-DC143C?style=flat-square)
+![Incident Response](https://img.shields.io/badge/-Incident%20Response-FF4500?style=flat-square)
+![Threat Management](https://img.shields.io/badge/-Threat%20Management-8B0000?style=flat-square)
+![ISO 27001](https://img.shields.io/badge/-ISO%2027001-6A5ACD?style=flat-square)
+![MITRE ATT&CK](https://img.shields.io/badge/-MITRE%20ATT%26CK-4169E1?style=flat-square)
+
+### Security Tools & Technologies
+
 ![Nessus](https://img.shields.io/badge/-Nessus-00C176?style=flat-square)
 ![Burp Suite](https://img.shields.io/badge/-Burp%20Suite-FF6633?style=flat-square)
-![ELK Stack](https://img.shields.io/badge/-ELK%20Stack-005571?style=flat-square&logo=elastic&logoColor=white)
+![Nmap](https://img.shields.io/badge/-Nmap-4682B4?style=flat-square)
+![ELK Stack](https://img.shields.io/badge/-ELK%20Stack-005571?style=flat-square)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/-PowerShell-012456?style=flat-square)
+![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
 
-### 🌐 Networking & Protocols
-![TCP/IP](https://img.shields.io/badge/-TCP%2FIP-1572B6?style=flat-square)
-![SNMP](https://img.shields.io/badge/-SNMP-FF9800?style=flat-square)
-![SSH](https://img.shields.io/badge/-SSH-4CAF50?style=flat-square)
-![HTTP/HTTPS](https://img.shields.io/badge/-HTTP%2FHTTPS-2196F3?style=flat-square)
+### Platforms & Infrastructure
 
-## 🚀 Featured Projects
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Windows](https://img.shields.io/badge/-Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
+![Networking](https://img.shields.io/badge/-TCP/IP%20%7C%20HTTP/S%20%7C%20SSH%20%7C%20SNMP-008080?style=flat-square)
 
-### 🔧 [ASNA - Automated Systems & Network Auditor]
-**Enterprise-grade automated IT audit solution**
-- 🎯 Deployed across **1000+ DRDO systems nationwide**
-- ⚡ Reduced assessment time to **5 minutes per system**
-- 🏗️ Built with Python, Bash scripting, ELK Stack
-- 📊 Real-time centralized monitoring dashboard
+---
 
-### 🔒 [SecurD3+ - Multi-Factor Hardware Security System]
-**3-layer security authentication system**
-- 🔐 Biometric + Smart Card + Knowledge-based authentication
-- 🛠️ Arduino Uno + Raspberry Pi implementation
-- 🎨 Proof-of-concept for enterprise security
+## 💼 Professional Experience
 
-### 🌐 [DonkeyScanner (DScan) - Network Security Tool]
-**User-friendly network scanning automation**
-- 🔍 Simplified nmap operations for cybersecurity professionals
-- 🎯 Comprehensive scanning capabilities
-- 👥 Designed for cybersecurity beginners
+### 🚗 Volkswagen Group Digital Solutions [India]
+**Senior Security Engineer | May 2026 – Present**
 
-<!-- ## 📊 GitHub Stats
+- Lead and support enterprise vulnerability lifecycle activities including identification, prioritization, tracking, and remediation coordination.
+- Perform risk-based vulnerability analysis considering severity, exploitability, and business impact.
+- Collaborate with infrastructure and application teams to reduce cyber exposure and improve security posture.
+- Support incident response, threat management, and ISO 27001 internal audit activities.
+- Develop security reporting, metrics, and process improvements for better security visibility.
+
+---
+
+### 🏢 LTIMindtree Ltd
+**Senior Consultant – Cybersecurity | Aug 2022 – Apr 2026**
+
+- Conducted security assessments across 500+ IoT devices and enterprise environments.
+- Performed vulnerability analysis, reporting, and remediation recommendations.
+- Developed Python-based automation solutions improving security assessment efficiency by 40%.
+- Mentored junior cybersecurity professionals and supported technical delivery.
+
+---
+
+### 🛡️ DRDO
+**Software Developer | Feb 2021 – Aug 2022**
+
+- Developed automated audit solutions supporting 1000+ enterprise systems.
+- Contributed to secure software development, system assessments, and compliance activities.
+- Received organizational recognition for outstanding contribution.
+
+---
+
+## 🚀 Featured Security Projects
+
+### 🔧 ASNA – Automated Systems & Network Auditor
+
+Enterprise-grade security auditing solution designed for large-scale environments.
+
+- Automated system security assessment and compliance validation.
+- Reduced assessment time to approximately 5 minutes per system.
+- Enabled centralized reporting and operational visibility.
+- Technologies: Python, Bash, ELK Stack.
+
+---
+
+### 🌐 DScan – Network Security Automation Tool
+
+User-friendly network assessment utility built to simplify security scanning.
+
+- Automated common network discovery and scanning activities.
+- Built on top of Nmap to improve usability and efficiency.
+- Designed for cybersecurity practitioners and learners.
+
+---
+
+## 🏆 Certifications & Professional Development
+
+- 🎓 Post Graduate Program in Cyber Security (Great Lakes University)
+- ☁️ Microsoft Azure AI Fundamentals (AI-900)
+- 🛡️ Advanced Certificate Program in Cybersecurity – IIIT Bangalore
+- 🎯 MITRE ATT&CK Foundations & Purple Teaming Certifications
+- 🏅 DRDO Recognition Certificate
+- 📜 Certified Network Security Specialist (CNSS)
+
+---
+
+## 🌱 Currently Expanding Expertise
+
+- ☁️ Cloud Security & Microsoft Azure Security Technologies
+- 🤖 AI-driven Security Automation and Cybersecurity Applications
+- 🛡️ Zero Trust Architecture and Modern Security Models
+
+---
+
+## 📫 Connect With Me
 
 <div align="center">
 
-![Praman's GitHub Stats](https://github-readme-stats.vercel.app/api?username=pramankasliwal&show_icons=true&theme=dark&count_private=true)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional%20Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pramankasliwal/)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pramankasliwal&layout=compact&theme=dark) -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-Security%20Console-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pramankasliwal.github.io/)
 
-</div>
-
-## 🏆 Certifications & Achievements
-
-- 🛡️ **Post-Graduate in Cyber Security** (Distant)
-- 🥇 **Microsoft AI-900: Azure AI Fundamentals** (Dec 2024)
-- 🛡️ **IIIT Bangalore Advanced Certificate Program in Cybersecurity** (Jun 2023)
-- 🎯 **AttackIQ Foundations of Operationalizing MITRE ATT&CK** (Sep 2022)
-- 🔍 **AttackIQ Foundations of Purple Teaming** (Sep 2022)
-- 🏅 **DRDO Recognition Certificate** for Outstanding Contribution
-- 📜 **ICSI CNSS Certified Network Security Specialist** (May 2020)
-
-## 🌱 Currently Learning
-
-- ☁️ **Advanced Azure Security** (AZ-500 prep)
-- 🤖 **AI/ML in Cybersecurity**
-- 🛡️ **Zero Trust Architecture**
-- 📊 **CISSP & CISA** certification preparation
-
-## 📈 Professional Experience
-
-### 🚗 **Volkswagen Group Digital Solutions [India]** | Senior Security Engineer
-*May 2026 - Present*
-- 🧐 Support enterprise vulnerability management by identifying, assessing, prioritizing, and tracking vulnerabilities across technology assets.
-- ‍‍💻 Coordinate with infrastructure and application teams to drive remediation and reduce cyber exposure.
-- 📑 Perform risk-based vulnerability analysis considering severity, exploitability, and business impact.
-- 🚀 Support incident response, threat management, and ISO 27001 internal audit activities.
-- 📊 Develop security metrics, reports, and process improvements to enhance security posture.
-
-### 🏢 **LTIMindtree Ltd** | Senior Consultant - CyberSecurity
-*Aug 2022 - Apr 2026*
-- 🔍 IoT device security assessments (500+ devices)
-- 🐍 Python automation for security processes
-- 👥 Team mentoring (4+ junior members)
-
-### 🛡️ **DRDO** | Software Developer (Contractual)
-*Feb 2021 - Aug 2022*
-- 🏗️ Mission-critical software solutions (nationwide deployment)
-- 📊 Internal IT audits & ISO 27001 compliance
-- 🤖 ML-enhanced security applications
-
-## 📫 Let's Connect!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pramankasliwal/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://pramankasliwal.github.io/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kasliwal.praman008@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kasliwal.praman008@gmail.com)
 
 </div>
 
@@ -126,7 +153,7 @@
 
 <div align="center">
 
-💡 *"Securing the digital world, one script at a time"* 💡
+### 🔒 “Reducing cyber risk through automation, visibility, and secure engineering.”
 
 ![Profile Views](https://komarev.com/ghpvc/?username=pramankasliwal&color=blue&style=flat-square)
 
